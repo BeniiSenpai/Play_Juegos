@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/TableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iconNewUser"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:scrollbarSize="4dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2">
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/newPlayer_name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2">
+
+                <EditText
+                    android:id="@+id/editPhoneticName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/newPlayer_phoheticName" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2">
+
+                <EditText
+                    android:id="@+id/editNickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/newPlayer_nickname" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/imgCam"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:scrollbarSize="4dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/previewImgChange"
+                android:layout_width="90dp"
+                android:layout_height="125dp"
+                android:layout_column="1"
+                android:layout_span="0"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/buttonToChangeImg"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="top|left"
+                android:layout_span="0"
+                android:background="@color/colorAccentCustom"
+                android:gravity="center"
+                android:text="@string/newPlayer_Change" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iconPhone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:scrollbarSize="4dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2">
+
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/newPlayer_phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_column="2" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iconEmail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:scrollbarSize="4dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2">
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/newPlayer_email" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</ScrollView>

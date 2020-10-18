@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preferences">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout"></include>
+
+
+
+    <TextView
+        android:id="@+id/tittlePrefencies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/preferencies_tittle"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tittlePrefencies">
+
+        <RadioButton
+            android:id="@+id/button1Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preferencies_1Game" />
+
+        <RadioButton
+            android:id="@+id/button2Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preferencies_2Game" />
+
+        <RadioButton
+            android:id="@+id/button3Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preferencies_3Game" />
+
+        <RadioButton
+            android:id="@+id/button4Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preferencies_4Game" />
+
+        <RadioButton
+            android:id="@+id/button5Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preferencies_5Game" />
+    </RadioGroup>
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:numStars="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="52dp"
+        android:max="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="?android:attr/textCheckMark" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

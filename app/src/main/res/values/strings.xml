@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Play Juegos</string>
+    <string name="app_play">Play</string>
+    <string name="app_newPlayer">New Player</string>
+    <string name="app_preferencie">PREFERENCIES</string>
+    <string name="app_about">About</string>
+
+    <string name="newPlayer_name">Name</string>
+    <string name="newPlayer_phoheticName">Phonetic Name</string>
+    <string name="newPlayer_nickname">Nickname</string>
+    <string name="newPlayer_phone">Phone</string>
+    <string name="newPlayer_email">E-mail</string>
+    <string name="newPlayer_Change">CHANGE</string>
+
+
+    <string name="action_settings">Opciones</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_add">Añadir</string>
+
+    <string name="fab">fab</string>
+
+    <string name="preferencies_tittle">Elige una opción: </string>
+    <string name="preferencies_1Game">Angry Birds </string>
+    <string name="preferencies_2Game">Dragon fly </string>
+    <string name="preferencies_3Game">Hill climbing racing </string>
+    <string name="preferencies_4Game">Pocket soccer </string>
+    <string name="preferencies_5Game">Radiant defense </string>
+
+    <string name="generos_tittle">Plataformas: </string>
+    <string name="generos_tittle2">Generos: </string>
+    <string name="generos_accion">Accion </string>
+    <string name="generos_aventura">Aventura </string>
+    <string name="generos_deportes">Deportes </string>
+    <string name="generos_disparos">Disparos </string>
+    <string name="generos_estrategia">Estrategia </string>
+    <string name="generos_lucha">Lucha </string>
+    <string name="generos_musical">Musical </string>
+    <string name="generos_rol">Rol </string>
+    <string name="generos_simulacion">Simulacion </string>
+
+
+
+
+
+
+    <string name="string_PS4">PS4 </string>
+    <string name="string_PC">PC </string>
+    <string name="string_XBOX">XBOX </string>
+    <string name="string_WII">WII </string>
+    <string name="string_WIIU">WIIU </string>
+    <string name="string_3DS">3DS </string>
+    <string name="string_X360">X360 </string>
+
+</resources>
